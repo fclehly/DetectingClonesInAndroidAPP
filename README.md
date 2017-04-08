@@ -107,7 +107,7 @@ root ------ calc_si.py  //计算相似度的代码
 >注意：必须保证bin中所有文件和hungarian-algorithm-n3中的hungarian文件拥有可执行权限，否则使用chmod +x命令增加可执行权限  
   
 **示例**
->我的系统是Linux x64(为了方便，我使用了[bash on ubuntu on windows](https://msdn.microsoft.com/en-us/commandline/wsl/about])
+>我的系统是Linux x64(为了方便，我使用了[bash on ubuntu on windows](https://msdn.microsoft.com/en-us/commandline/wsl/about) 
   
 初始时我的工程结构如下：  
 ![step4](/img/step4.PNG)

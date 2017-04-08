@@ -9,7 +9,7 @@ Edited by python, based on the PAPER:Detecting Clones in Android Applications th
 
 ### Usage:
 #### 环境准备：
-Android环境的安装：  
+**Android环境的安装**：  
 你需要安装android sdk，下载和安装都可以在`Android Developer`上找到，这里直接给出[下载链接](https://developer.android.com/studio/index.html)。  
 安装完成后,在shell中(windows是powershell或cmd)输入adb， 如果能出现如下信息则说明安装成功  
   
@@ -17,21 +17,21 @@ Android环境的安装：
   
 >注意：在windows中可能需要额外配置adb的环境变量
 
-Android虚拟机的安装：  
+**Android虚拟机的安装**：  
 这里我个人推荐[Genymotion虚拟机](https://www.genymotion.com/)  
 安装完后启动genymotion  
-![genymotion](/img/genymotion.PNG)
+![genymotion](/img/genymotion.PNG)  
 点击左上角的add添加android虚拟机，添加完后启动虚拟机查看是否正常运行  
 ![androidDevice](/img/androidDevice.PNG)
 
-Apktool的安装：  
+**Apktool的安装**：  
 下载及安装说明点击[这里](https://ibotpeaches.github.io/Apktool/install/)  
 安装完成后,在shell中(windows是powershell或cmd)输入apktool， 如果能出现如下信息则说明安装成功  
   
 ![apktool](/img/apktool.PNG)
 >注意：在windows中可能需要额外配置apktool的环境变量
 
-Python的安装：  
+**Python的安装**：  
 下载及安装说明点击[这里](https://www.python.org/downloads/)  
 
 #### 开始运行
@@ -47,3 +47,5 @@ root ------ bm.py  //生成birthmarks的代码
        ---- birthmarks  //保存各个app生成生成的birthmark的文件夹
 ```
 >注意：apk_set里的apk不宜过多，因为虚拟机不稳定，可能会导致批处理崩溃
+
+**示例**：  

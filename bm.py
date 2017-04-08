@@ -6,7 +6,7 @@ import tap
 import time
 
 
-components = ['textView', 'editText', 'button', 'checkBox', 'bar', 'switch', 'spinner', 'view', 'layout']
+components = ['textview', 'edittext', 'button', 'checkbox', 'bar', 'switch', 'spinner', 'view', 'layout']
 useful_attrs = ['checkable', 'checked', 'clickable', 'enabled', 'focusable', 'focused','scrollable', 'long-clickable', 'password', 'selected']
 
 class ManifestHandler(xml.sax.ContentHandler):
